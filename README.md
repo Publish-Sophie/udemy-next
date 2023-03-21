@@ -1,2 +1,0 @@
-# udemy-next
-udemy-next

@@ -1,21 +1,11 @@
-// import "../styles/globals.css";
-import NavBar from "@/components/NavBar";
+import "../styles/globals.css";
+import Layout from "@/components/Layout";
 
 function App({ Component, pageProps }) {
   return (
-    <>
-      <NavBar />
+    <Layout>
       <Component {...pageProps} />
-      <style jsx global>{`
-        a {
-          color: dodgerblue;
-          text-decoration: none;
-        }
-        .active {
-          color: tomato;
-        }
-      `}</style>
-    </>
+    </Layout>
   );
 }
 
